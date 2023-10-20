@@ -13,8 +13,8 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "OD-WeaponDetection: Knife Detection"
-PROJECT_NAME_FULL: str = "OD-WeaponDetection: Knife Detection"
+PROJECT_NAME: str = "OD-WeaponDetection: Pistol Classification"
+PROJECT_NAME_FULL: str = "OD-WeaponDetection: Pistol Classification"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
@@ -24,8 +24,8 @@ LICENSE: License = License.CC_BY_SA_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Safety(is_used=False)]
 CATEGORY: Category = Category.Safety(extra=Category.Surveillance())
 
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
-ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.Classification()]
+ANNOTATION_TYPES: List[AnnotationType] = []
 
 RELEASE_DATE: Optional[str] = "2020-11-23"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
@@ -34,10 +34,10 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://github.com/ari-dasci/OD-WeaponDetection"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 7494791
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
-GITHUB_URL: str = None
+GITHUB_URL: str = "https://github.com/dataset-ninja/od-weapon-detection-pistol-classification"
 # URL to GitHub repo on dataset ninja (e.g. "https://github.com/dataset-ninja/some-dataset")
 
 ##################################
