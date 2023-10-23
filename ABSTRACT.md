@@ -1,4 +1,4 @@
-Authors introduce **OD-WeaponDetection: Pistol Classigication** dataset, a collection of 9857 images designed for classification task, contatins 102 classes: *aaapistol*, *pizza*, *joshua_tree* and more. These images were sourced from the internet, including frames extracted from YouTube videos and surveillance footage. The dataset encompasses a wide variety of weapons, differing in types, shapes, colors, sizes, and materials. It accounts for knives positioned at various distances from the camera, some partially occluded by hands, and objects that mimic the handling of knives. The dataset offers a diverse range of indoor and outdoor scenarios, and additional details about this image dataset and experiment results can be found in the related publication. The OD-WeaponDetection: Pistol Classification dataset is a part of **Weapon Detection Open Data**.
+Authors introduce **OD-WeaponDetection: Pistol Classification** dataset, a collection of 9857 images designed for classification task, contatins 102 classes: *aaapistol*, *pizza*, *joshua_tree* and more. These images were sourced from the internet, including frames extracted from YouTube videos and surveillance footage. The dataset encompasses a wide variety of weapons, differing in types, shapes, colors, sizes, and materials. It accounts for knives positioned at various distances from the camera, some partially occluded by hands, and objects that mimic the handling of knives. The dataset offers a diverse range of indoor and outdoor scenarios, and additional details about this image dataset and experiment results can be found in the related publication. The OD-WeaponDetection: Pistol Classification dataset is a part of **Weapon Detection Open Data**.
 
 
 ## More about Weapon Detection Open Data
@@ -13,7 +13,7 @@ Weapon detection Open Data provides quality image datasets built for training De
 
 ## Weapon Detection Open Data structure
 
-### Classification
+## Classification
 
 The datasets included in this section have been designed for the classification task based on CNN deep learning models. After the training stage on these datasets, the classification models must distinguish between weapons and different common objects present in the background or handled similarly.
 
@@ -21,7 +21,7 @@ The datasets included in this section have been designed for the classification 
 - OD-WeaponDetection: Pistol Classification (9 857 images, 102 classes) (current)
 - OD-WeaponDetection: Sohas Classification (9 544 images, 6 classes) [(available on DatasetNinja)](https://datasetninja.com/od-weapon-detection-sohas-classification)
 
-### Detection
+## Detection
 
 The datasets included in this section have been designed for the object detection task based on Deep Learning architectures with a CNN backbone. The selected images contain weapons and objects but also consider an enriched context of different background objects as well as the way objects are handled. After the training stage on these datasets, the detection models must locate and distinguish between weapons and different common objects present in the background or handled similarly.
 

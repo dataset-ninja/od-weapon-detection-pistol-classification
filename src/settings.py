@@ -51,15 +51,15 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://arxiv.org/abs/1702.05147"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = ["https://dasci.es/transferencia/open-data/24705/"]
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
-CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Fransco Pérez Hernandez", "Alberto Castillo Lamas"]
+CITATION_URL: Optional[str] = "https://arxiv.org/abs/1702.05147"
+AUTHORS: Optional[List[str]] = ["Fransco Pérez Hernandez", "Alberto Castillo Lamas", "Roberto Olmos", "Siham Tabik", "Francisco Herrera"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Soft Computing and Intelligent Information Systems research group", "University of Granada, Spain"]
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://sci2s.ugr.es/welcome", "http://www.ugr.es/en"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
