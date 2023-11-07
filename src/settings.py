@@ -57,7 +57,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://arxiv.org/abs/1702.05147"
 AUTHORS: Optional[List[str]] = ["Fransco Pérez Hernandez", "Alberto Castillo Lamas", "Roberto Olmos", "Siham Tabik", "Francisco Herrera"]
-AUTHORS_CONTACTS: Optional[List[str]] = ["siham@ugr.es", "siham.tabik@gmail.com", "herrera@decsai.ugr.es"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["fperezhernandez92@gmail.com", "fperezhernandez@ugr.es", "alcasla90@gmail.com", "albertocl@ugr.es"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Soft Computing and Intelligent Information Systems research group", "University of Granada, Spain"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://sci2s.ugr.es/welcome", "http://www.ugr.es/en"]
