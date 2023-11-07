@@ -43,7 +43,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/od-weapon-detection-pistol-c
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://drive.google.com/file/d/1Szc920DAh5kU8Qk38Doq0znEVR1QmTZS/view?usp=sharing"]
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://drive.google.com/file/d/1Szc920DAh5kU8Qk38Doq0znEVR1QmTZS/view?usp=sharing"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -57,6 +57,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://arxiv.org/abs/1702.05147"
 AUTHORS: Optional[List[str]] = ["Fransco Pérez Hernandez", "Alberto Castillo Lamas", "Roberto Olmos", "Siham Tabik", "Francisco Herrera"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["siham@ugr.es", "siham.tabik@gmail.com", "herrera@decsai.ugr.es"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Soft Computing and Intelligent Information Systems research group", "University of Granada, Spain"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://sci2s.ugr.es/welcome", "http://www.ugr.es/en"]
@@ -110,6 +111,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
