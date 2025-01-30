@@ -1,6 +1,6 @@
 Dataset **OD-WeaponDetection: Pistol Classification** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/qotrea3wbcrtc1avg0czz/od-weapondetection-pistol-classification-DatasetNinja.tar?rlkey=sru747kpsxc23i9yzrcridq50&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI4MDdfT0QtV2VhcG9uRGV0ZWN0aW9uOiBQaXN0b2wgQ2xhc3NpZmljYXRpb24vb2Qtd2VhcG9uZGV0ZWN0aW9uOi1waXN0b2wtY2xhc3NpZmljYXRpb24tRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAicS9ROGxGUGZmUzh2YkI1MkpQTzkzSG1Kei9sQlZPN1N2Uit6T01BU3JnQT0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
