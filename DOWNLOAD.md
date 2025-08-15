@@ -1,6 +1,6 @@
 Dataset **OD-WeaponDetection: Pistol Classification** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI4MDdfT0QtV2VhcG9uRGV0ZWN0aW9uOiBQaXN0b2wgQ2xhc3NpZmljYXRpb24vb2Qtd2VhcG9uZGV0ZWN0aW9uOi1waXN0b2wtY2xhc3NpZmljYXRpb24tRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAicS9ROGxGUGZmUzh2YkI1MkpQTzkzSG1Kei9sQlZPN1N2Uit6T01BU3JnQT0ifQ==)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjgwN19PRC1XZWFwb25EZXRlY3Rpb246IFBpc3RvbCBDbGFzc2lmaWNhdGlvbi9vZC13ZWFwb25kZXRlY3Rpb246LXBpc3RvbC1jbGFzc2lmaWNhdGlvbi1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJTKzZqNS9ZZmpWVXhsQlg2NVRoZDV6c3pheE0zWmlaR292bFh0SFpaMzh3PSJ9?response-content-disposition=attachment%3B%20filename%3D%22od-weapondetection%3A-pistol-classification-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
